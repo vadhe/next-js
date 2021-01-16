@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "yarn build && next export"
   },
   "prettier": {
     "semi": false,
@@ -19,6 +20,7 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@types/node": "^14.14.21",
     "@types/react": "^17.0.0",
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
