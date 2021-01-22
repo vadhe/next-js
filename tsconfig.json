@@ -3,7 +3,8 @@
     "baseUrl": "./",
     "paths": {
       "@components/*": ["components/*"],
-      "@shared/*": ["shared/*"]
+      "@shared/*": ["shared/*"],
+      "@layout/*": ["layout/*"]
     },
     "target": "es5",
     "lib": [
@@ -27,7 +28,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/header/styles.js"  ],
   "exclude": [
     "node_modules"
   ]
